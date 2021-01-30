@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="sonbox/php.js"></script>
+    <link rel="stylesheet" href="sonbox/php.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WhaleF文件空间</title>
+</head>
+<body>
+    <div class="top">
+        <div class="top-left" onclick="home()">
+            <?xml version="1.0" standalone="no"?><!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"><svg t="1595497047434" class="icon" viewBox="0 0 1137 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="4410" xmlns:xlink="http://www.w3.org/1999/xlink" width="50%" height="50%"><defs><style type="text/css"></style></defs><path d="M739.555556 398.222222H398.222222a56.888889 56.888889 0 0 1 0-113.777778h341.333334a56.888889 56.888889 0 0 1 0 113.777778z m395.832888 211.228445l-170.666666-568.888889A56.888889 56.888889 0 0 0 910.222222 0H227.555556a56.888889 56.888889 0 0 0-54.499556 40.561778l-170.666667 568.888889A109.454222 109.454222 0 0 0 0 625.777778v341.333333a56.888889 56.888889 0 0 0 56.888889 56.888889h1024a56.888889 56.888889 0 0 0 56.888889-56.888889V625.777778a109.340444 109.340444 0 0 0-2.389334-16.327111zM269.880889 113.777778h598.016l136.533333 455.111111H739.555556a56.888889 56.888889 0 0 0-56.888889 56.888889v56.888889h-227.555556v-56.888889a56.888889 56.888889 0 0 0-56.888889-56.888889H133.347556zM1024 910.222222H113.777778v-227.555555h227.555555v56.888889a56.888889 56.888889 0 0 0 56.888889 56.888888h341.333334a56.888889 56.888889 0 0 0 56.888888-56.888888v-56.888889h227.555556v227.555555z" fill="#ffffff" p-id="4411"></path></svg>        
+        <h2>WF</h2>
+        </div>
+        <div class="top-right">            
+            <div class="text-top">
+                <h3>WhaleF致力于</h3>
+                <h3>收集全网优质的学习资源</h3>
+            </div>
+            <div class="time-bottom">
+                <p id="show1"></p>
+                <p id="show2"></p>
+                <p id="show3"></p>
+                <p id="show4"></p>
+                <p id="show5"></p>
+                <p id="show6"></p>
+            </div>
+        </div>
+    </div>
+    <div class="load">
+        <div class="fill">
+                <span>
+                    <img src="sonbox/php2.svg" alt="box">
+                    <h3>物理资料夹</h3>                    
+                    <button onclick="display()" id="btn">点击展开</button>
+                </span>
+                <ul id="ul" style="display: none;">
+                <li>
+                    <img src="sonbox/php1.svg" alt="">
+                    <p>物理知识点1</p>
+                </li>
+                <li>
+                    <img src="sonbox/php1.svg" alt="">
+                    <p>物理知识点2</p>
+                </li>
+                <li>
+                    <img src="sonbox/php1.svg" alt="">
+                    <p>物理知识点3</p>
+                </li>
+                <li>
+                    <img src="sonbox/php1.svg" alt="">
+                    <p>物理知识点4</p>
+                </li>
+                <li>
+                    <img src="sonbox/php1.svg" alt="">
+                    <p>物理知识点5</p>
+                </li>
+            </ul>
+            </div>
+            <div class="fill">
+                <span>
+                    <img src="sonbox/php2.svg" alt="box">
+                    <h3>数学资料夹</h3>                    
+                    <button onclick="displayt()" id="btnt">点击展开</button>
+                </span>
+                <ul id="ult" style="display: none;">
+                <li>
+                    <img src="sonbox/php1.svg" alt="">
+                    <p>数学知识点1</p>
+                </li>
+                <li>
+                    <img src="sonbox/php1.svg" alt="">
+                    <p>数学知识点2</p>
+                </li>
+                <li>
+                    <img src="sonbox/php1.svg" alt="">
+                    <p>数学知识点3</p>
+                </li>
+                <li>
+                    <img src="sonbox/php1.svg" alt="">
+                    <p>数学知识点4</p>
+                </li>
+                <li>
+                    <img src="sonbox/php1.svg" alt="">
+                    <p>数学知识点5</p>
+                </li>
+            </ul>
+            </div>
+            <div class="fill">
+                <span>
+                    <img src="sonbox/php2.svg" alt="box">
+                    <h3>英语资料夹</h3>                    
+                    <button onclick="displayr()" id="btnr">点击展开</button>
+                </span>
+                <ul id="ulr" style="display: none;">
+                <li>
+                    <img src="sonbox/php1.svg" alt="">
+                    <p>英语知识点1</p>
+                </li>
+                <li>
+                    <img src="sonbox/php1.svg" alt="">
+                    <p>英语知识点2</p>
+                </li>
+                <li>
+                    <img src="sonbox/php1.svg" alt="">
+                    <p>英语知识点3</p>
+                </li>
+                <li>
+                    <img src="sonbox/php1.svg" alt="">
+                    <p>英语知识点4</p>
+                </li>
+                <li>
+                    <img src="sonbox/php1.svg" alt="">
+                    <p>英语知识点5</p>
+                </li>
+            </ul>
+            </div>
+            <div class="fill">
+                <span>
+                    <img src="sonbox/php2.svg" alt="box">
+                    <h3>语文资料夹</h3>                    
+                    <button onclick="displayf()" id="btnf">点击展开</button>
+                </span>
+                <ul id="ulf" style="display: none;">
+                <li>
+                    <img src="sonbox/php1.svg" alt="">
+                    <p>语文知识点1</p>
+                </li>
+                <li>
+                    <img src="sonbox/php1.svg" alt="">
+                    <p>语文知识点2</p>
+                </li>
+                <li>
+                    <img src="sonbox/php1.svg" alt="">
+                    <p>语文知识点3</p>
+                </li>
+                <li>
+                    <img src="sonbox/php1.svg" alt="">
+                    <p>语文知识点4</p>
+                </li>
+                <li>
+                    <img src="sonbox/php1.svg" alt="">
+                    <p>语文知识点5</p>
+                </li>
+            </ul>
+            </div>
+            <div class="fill">
+                <span>
+                    <img src="sonbox/php2.svg" alt="box">
+                    <h3>地理资料夹</h3>                    
+                    <button onclick="displayo()" id="btno">点击展开</button>
+                </span>
+                <ul id="ulo" style="display: none;">
+                <li>
+                    <img src="sonbox/php1.svg" alt="">
+                    <p>地理知识点1</p>
+                </li>
+                <li>
+                    <img src="sonbox/php1.svg" alt="">
+                    <p>地理知识点2</p>
+                </li>
+                <li>
+                    <img src="sonbox/php1.svg" alt="">
+                    <p>地理知识点3</p>
+                </li>
+                <li>
+                    <img src="sonbox/php1.svg" alt="">
+                    <p>地理知识点4</p>
+                </li>
+                <li>
+                    <img src="sonbox/php1.svg" alt="">
+                    <p>地理知识点5</p>
+                </li>
+            </ul>
+            </div>
+            <div class="fill">
+                <span>
+                    <img src="sonbox/php2.svg" alt="box">
+                    <h3>政治资料夹</h3>                    
+                    <button onclick="displays()" id="btns">点击展开</button>
+                </span>
+                <ul id="uls" style="display: none;">
+                <li>
+                    <img src="sonbox/php1.svg" alt="">
+                    <p>政治知识点1</p>
+                </li>
+                <li>
+                    <img src="sonbox/php1.svg" alt="">
+                    <p>政治知识点2</p>
+                </li>
+                <li>
+                    <img src="sonbox/php1.svg" alt="">
+                    <p>政治知识点3</p>
+                </li>
+                <li>
+                    <img src="sonbox/php1.svg" alt="">
+                    <p>政治知识点4</p>
+                </li>
+                <li>
+                    <img src="sonbox/php1.svg" alt="">
+                    <p>政治知识点5</p>
+                </li>
+            </ul>
+            </div>
+            <div class="fill">
+                <span>
+                    <img src="sonbox/php2.svg" alt="box">
+                    <h3>历史资料夹</h3>                    
+                    <button onclick="displaye()" id="btne">点击展开</button>
+                </span>
+                <ul id="ule" style="display: none;">
+                <li>
+                    <img src="sonbox/php1.svg" alt="">
+                    <p>历史知识点1</p>
+                </li>
+                <li>
+                    <img src="sonbox/php1.svg" alt="">
+                    <p>历史知识点2</p>
+                </li>
+                <li>
+                    <img src="sonbox/php1.svg" alt="">
+                    <p>历史知识点3</p>
+                </li>
+                <li>
+                    <img src="sonbox/php1.svg" alt="">
+                    <p>历史知识点4</p>
+                </li>
+                <li>
+                    <img src="sonbox/php1.svg" alt="">
+                    <p>历史知识点5</p>
+                </li>
+            </ul>
+            </div>
+            <div class="fill">
+                <span>
+                    <img src="sonbox/php2.svg" alt="box">
+                    <h3>生物资料夹</h3>                    
+                    <button onclick="displayg()" id="btng">点击展开</button>
+                </span>
+                <ul id="ulg" style="display: none;">
+                <li>
+                    <img src="sonbox/php1.svg" alt="">
+                    <p>生物知识点1</p>
+                </li>
+                <li>
+                    <img src="sonbox/php1.svg" alt="">
+                    <p>生物知识点2</p>
+                </li>
+                <li>
+                    <img src="sonbox/php1.svg" alt="">
+                    <p>生物知识点3</p>
+                </li>
+                <li>
+                    <img src="sonbox/php1.svg" alt="">
+                    <p>生物知识点4</p>
+                </li>
+                <li>
+                    <img src="sonbox/php1.svg" alt="">
+                    <p>生物知识点5</p>
+                </li>
+            </ul>   
+            </div>
+    </div> 
+    <div class="bottom">
+         <h3>@WhaleF 网络传媒</h3>
+    </div>
+</body>
+</html>
